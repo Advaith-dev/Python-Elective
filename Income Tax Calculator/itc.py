@@ -24,4 +24,4 @@ if income > 700000: #Rebate of 25000
     tax_amount += tax_amount *.04   #CESS 4%
     print("Tax amount = ", tax_amount)
 else:
-    print("No tax") #No tax if income is less than 7L
+    print("No tax") #No tax if income is less than 7Lakhs
