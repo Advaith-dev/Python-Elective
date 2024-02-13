@@ -1,8 +1,8 @@
 num = float(input("Enter the positive number: "))
-py_estimate = "%0.7f" % num **(1/2)
+py_estimate = num **(1/2)
 z = 1
 
-while z != py_estimate:
+while "%0.7f" %  z != "%0.7f" %  py_estimate:
     z = (z + num / z) / 2
 
-print("py estimate: ",py_estimate,"algorithm estimate: ",z)
+print("Python estimate: ",py_estimate,"Algorithm estimate: ",z)
