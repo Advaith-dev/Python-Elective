@@ -10,11 +10,11 @@ num = float(input("Enter the positive number: "))
 #square root calculated by direct method
 py_estimate = num **(1/2)
 
-#
+
 z = 1
 
 #Repeating until 7 decimal points become same
-while "%0.7f" %  z != "%0.7f" %  py_estimate:
+while "%0.9f" %  z != "%0.9f" %  py_estimate:
     z = (z + num / z) / 2
 
 print("Python estimate: ",py_estimate,"Algorithm estimate: ",z)
