@@ -17,7 +17,7 @@ for x in range(t):
     #Interest amount added to initial balance or previous balance
     new = p + i
 
-    print(x+1,"\t",p,"\t\t","%0.2f" % i,"\t","%0.2f" % new)
+    print(x+1 ,"%-6.2f"% p, "%-2.2f" % i, "%-6.2f" % new)
 
     #setting new amount as the initial balance for the next iteration
     p = new
